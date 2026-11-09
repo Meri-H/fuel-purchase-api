@@ -1,0 +1,22 @@
+# PyCharm settings
+.idea/
+# Virtual environment
+.venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Local secrets
+.env
+
+# Test and code-checking caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# Local SQLite database and its supporting files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
